@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+			integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+			crossorigin="anonymous"
+		/>
+		<title>Adhoc</title>
+	</head>
+
+	<body>
+		<!-- Navbar Component -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"
+				><img
+					src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/logo.png"
+					alt="learn logo"
+			/></a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link text-secondary" href="#"
+							>Home <span class="sr-only">(current)</span></a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Our Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Jumbotron -->
+		<div
+			class="jumbotron jumbotron-fluid"
+			style="
+				background: url(https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png)
+					no-repeat;
+				background-size: cover;
+			"
+		>
+			<div class="bg-secondary text-white text-center my-5">
+				<h1 class="display-3">Administration made easy</h1>
+				<p>Adhoc is blah blah blah etc</p>
+			</div>
+		</div>
+
+		<!-- Container -->
+		<div class="container">
+			<!-- Quote Section -->
+			<div class="row">
+				<div class="col my-5">
+					<h2 class="text-left font-weight-light font-italic">
+						"Thanks to Adhoc we now have beautiful and faithful service every
+						day. Our customers are happy and engagement has drastically
+						increased. Highly recommend!"
+					</h2>
+					<p class="text-right font-weight-bold font-italic">
+						-Dave Ellavar,
+						<span class="font-weight-light font-italic"> Academy of Code</span>
+					</p>
+				</div>
+			</div>
+			<hr />
+
+			<!-- Why Adhoc? Text  -->
+			<div class="row my-5">
+				<div class="col">
+					<h2 class="text-center display-4">Why Adhoc?</h2>
+				</div>
+			</div>
+
+			<!-- Image Reasons Section -->
+			<div class="row my-5 align-items-center">
+				<div class="col-xs-8 col-md-4">
+					<!-- First card goes here -->
+					<div class="card border-light">
+						<img
+							src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/experienced.png?_gl=1*1uazypl*_ga*Mzc2MDE0NjAzLjE2NTYwOTI2NTA.*_ga_3LRZM6TM9L*MTY2NDU2MDIyNi4xMzQuMS4xNjY0NTYyMjE5LjU1LjAuMA.."
+							class="card-img-top"
+							alt="..."
+						/>
+						<div class="card-body text-center">Over 9000 happy clients etc</div>
+					</div>
+				</div>
+
+				<div class="col-xs-8 col-md-4">
+					<!-- Second card goes here -->
+					<div class="card border-light">
+						<img
+							src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/fun.png?_gl=1*eca07l*_ga*Mzc2MDE0NjAzLjE2NTYwOTI2NTA.*_ga_3LRZM6TM9L*MTY2NDU2NDc5MS4xMzUuMS4xNjY0NTY0ODE2LjM1LjAuMA.."
+							class="card-img-top"
+							alt="..."
+						/>
+						<div class="card-body text-center">fun etc</div>
+					</div>
+				</div>
+
+				<div class="col-xs-8 col-md-4">
+					<!-- Third card goes here -->
+					<div class="card border-light">
+						<img
+							src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/smart.png?_gl=1*ot522u*_ga*Mzc2MDE0NjAzLjE2NTYwOTI2NTA.*_ga_3LRZM6TM9L*MTY2NDU2NDc5MS4xMzUuMS4xNjY0NTY0ODE2LjM1LjAuMA.."
+							class="card-img-top"
+							alt="..."
+						/>
+						<div class="card-body text-center">
+							innovative solutions and whatnot
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Meet the Team Section -->
+			<div class="row bg-secondary align-items-center rounded-top">
+				<div class="col">
+					<h2 class="text-center text-white display-4">Meet the Team</h2>
+				</div>
+			</div>
+
+			<!-- Team Pictures Carousel -->
+			<div class="row bg-secondary align-items-center rounded-bottom">
+				<div class="col">
+					<!-- Carousel Component -->
+					<div
+						id="carouselExampleControls"
+						class="carousel slide w-50 mx-auto"
+						data-ride="carousel"
+					>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/brian.png?_gl=1*1eoqfke*_ga*Mzc2MDE0NjAzLjE2NTYwOTI2NTA.*_ga_3LRZM6TM9L*MTY2NDU2NDc5MS4xMzUuMS4xNjY0NTY0ODE2LjM1LjAuMA.."
+									class="d-block w-100"
+									alt="..."
+								/>
+								<div class="carousel-caption bg-secondary rounded-pill h-5">
+									<h5 class="align-items-center my-0">
+										CEO:<span class="font-weight-light"> Brian M.</span>
+									</h5>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/andy.png?_gl=1*1eoqfke*_ga*Mzc2MDE0NjAzLjE2NTYwOTI2NTA.*_ga_3LRZM6TM9L*MTY2NDU2NDc5MS4xMzUuMS4xNjY0NTY0ODE2LjM1LjAuMA.."
+									class="d-block w-100"
+									alt="..."
+								/>
+								<div
+									class="carousel-caption d-none d-md-block bg-secondary rounded-pill"
+								>
+									<h5 class="align-items-center my-0">
+										CEO:<span class="font-weight-light"> Brian M.</span>
+									</h5>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/angela.png?_gl=1*1p5lb15*_ga*Mzc2MDE0NjAzLjE2NTYwOTI2NTA.*_ga_3LRZM6TM9L*MTY2NDU2NDc5MS4xMzUuMS4xNjY0NTY0ODE2LjM1LjAuMA.."
+									class="d-block w-100"
+									alt="..."
+								/>
+								<div class="carousel-caption bg-secondary rounded-pill">
+									<h5 class="align-items-center my-0">
+										CEO:<span class="font-weight-light"> Brian M.</span>
+									</h5>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/amie.png?_gl=1*1p5lb15*_ga*Mzc2MDE0NjAzLjE2NTYwOTI2NTA.*_ga_3LRZM6TM9L*MTY2NDU2NDc5MS4xMzUuMS4xNjY0NTY0ODE2LjM1LjAuMA.."
+									class="d-block w-100"
+									alt="..."
+								/>
+								<div class="carousel-caption bg-secondary rounded-pill">
+									<h5 class="align-items-center my-0">
+										CEO:<span class="font-weight-light"> Brian M.</span>
+									</h5>
+								</div>
+							</div>
+						</div>
+						<a
+							class="carousel-control-prev"
+							href="#carouselExampleControls"
+							role="button"
+							data-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a
+							class="carousel-control-next"
+							href="#carouselExampleControls"
+							role="button"
+							data-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer><p class="text-center my-3">2019 Adhoc &copy;</p></footer>
+
+		<!-- Bootstrap's JavaScript Files -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+			integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+			integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
